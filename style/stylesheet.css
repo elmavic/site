@@ -1,0 +1,16 @@
+body {
+    background: skyblue;
+    background: linear-gradient(white, skyblue);
+    color: darkgrey;
+}
+
+h3 {
+    color: darkslateblue;
+}
+
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
