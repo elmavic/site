@@ -47,10 +47,10 @@ body {
 <body>
 
 <div class="sidenav">
-  <a href="#start">Start</a>
-  <a href="#allgemeines">Allgemeines</a>
-  <a href="#ernährung">Ernährung</a>
-  <a href="#bestand">Bestand</a>
+  <a href="start">Start</a>
+  <a href="allgemeines">Allgemeines</a>
+  <a href="ernährung">Ernährung</a>
+  <a href="bestand">Bestand</a>
 </div>
 
 <head>
