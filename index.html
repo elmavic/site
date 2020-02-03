@@ -8,16 +8,16 @@ body {
     font-family: "Lato", sans-serif;
 }
     
-.sidenav {
-    height:100%;
-    width: 300px
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111
-    overflow-x: hidden;
-    padding-top: 20px;
+  .sidenav {
+  height:100%;
+  width: 300px
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111
+  overflow-x: hidden;
+  padding-top: 20px;
 }
     
 .sindenav a {
@@ -33,26 +33,29 @@ body {
 }
     
 .main {
-     margin-left: 160px
-     font-size: 28px;
-     padding: 0px 10px;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
+    
 </style>
 </head>
 <body>
 
-<div class="sidenav">
-    <a href="content/start.html">Start</a>
-    <a href="content/allgemeines.html">Allgemeines</a>
-    <a href="content/ernährung.html">Ernährung</a>
-    <a href="content/bestand.html">Bestand</a>
-</div>
 
+<div class="sidenav">
+  <a href="content/start.html">Start</a>
+  <a href="content/allgemeines.html">Allgemeines</a>
+  <a href="content/ernährung.html">Ernährung</a>
+  <a href="content/bestand.html">Bestand</a>
+</div>
+    
+    
 <head>
     <meta charsrt>
     <meta charset="utf-8" />
