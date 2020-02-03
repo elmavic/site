@@ -1,7 +1,60 @@
 <!DOCTYPE html>
 <html lang="de">
+<html>
+<head>
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+    
+.sidenav {
+    height:100%;
+    width: 300px
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+    
+.sindenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 30px
+    color: #f1f1f1
+    display: block;
+}
+    
+ .sidenav a: hover {
+     color: #f1f1f1;
+}
+    
+.main {
+     margin-left: 160px
+     font-size: 28px;
+     padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+    <a href="content/start.html">Start</a>
+    <a href="content/allgemeines.html">Allgemeines</a>
+    <a href="content/ernährung.html">Ernährung</a>
+    <a href="content/bestand.html">Bestand</a>
+</div>
 
 <head>
+    <meta charsrt>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/stylesheet.css">
@@ -10,31 +63,16 @@
 </head>
 
 <body>
-<!-- Sidebar -->
-<div class="w3-sidebar w3-amber w3-bar-block" style="width:15%">
-  <a href="content/start.html" class="w3-bar-item w3-button">Start</a>
-  <a href="content/allgemeines.html" class="w3-bar-item w3-button">Allgemeines</a>
-  <a href="content/ernährung.html" class="w3-bar-item w3-button">Ernährung</a>
-  <a href="content/bestand.html" class="w3-bar-item w3-button">Bestand</a>
-  </div>
-  
-  <!-- Page Content -->
-  <div style="margin-left:15%">
-    
-  <div style="w3-container w3-white">
-    <h1>Wölfe</h1>
-  </div>
     <section>
-      <figure>
-        
-        <div class="w3-container">
+        <figure>
+            <h1>Wölfe</h1>
             <p>Der Wolf ist rezent das größte Raubtier aus der Familie der Hunde
                Wölfe leben meist in Familienverbänden, die Rudel genannt werden.
                Hauptbeute sind in den meisten Regionen mittelgroße bis große Huftiere.</p>
                <img src="img/wolf.6.jpg" alt="Shnappschuss eines Wolfes" />
-        </div>
-
+       </figure>
     </section>
 </body>
-
+    
 </html>
+
