@@ -47,11 +47,12 @@ body {
 <body>
 
 <div class="sidenav">
-  <a href="start">Start</a>
-  <a href="allgemeines">Allgemeines</a>
-  <a href="ernährung">Ernährung</a>
-  <a href="bestand">Bestand</a>
+  <a href="content/start.html">Start</a>
+  <a href="content/allgemeines.html" class="w3-bar-item w3-button">Allgemeines</a>
+  <a href="content/ernährung.html" class="w3-bar-item w3-button">Ernährung</a>
+  <a href="content/bestand.html" class="w3-bar-item w3-button">Bestand</a>
 </div>
+
 
 <head>
     <meta charset="utf-8" />
