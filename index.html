@@ -1,61 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
-<html>
-<head>
-<meta name="viewpoint" content="width=device-width, initial-scale=1">
-<style>
-body {
-    font-family: "Lato", sans-serif;
-}
-    
-  .sidenav {
-  height:100%;
-  width: 300px
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-    
-.sindenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 30px
-    color: #f1f1f1
-    display: block;
-}
-    
- .sidenav a: hover {
-     color: #f1f1f1;
-}
-    
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-    
-</style>
-</head>
-<body>
-
-
-<div class="sidenav">
-  <a href="content/start.html">Start</a>
-  <a href="content/allgemeines.html">Allgemeines</a>
-  <a href="content/ernährung.html">Ernährung</a>
-  <a href="content/bestand.html">Bestand</a>
-</div>
-    
-    
+            
 <head>
     <meta charsrt>
     <meta charset="utf-8" />
@@ -65,17 +10,41 @@ body {
     <title>Wölfe</title>
 </head>
 
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+  <h3 class="w3-bar-item">Menu</h3>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+<div class="w3-container w3-teal">
+  <h1>Der Wolf</h1>
+</div>
+
+<img src="img/wolf.6.jpg" alt="Shnappschuss eines Wolfes" />
+
+<div class="w3-container">
+<h2>Der Wolf</h2>
+</div>
     <section>
         <figure>
-            <h1>Wölfe</h1>
+<div class="w-3-container w3-white">
             <p>Der Wolf ist rezent das größte Raubtier aus der Familie der Hunde
                Wölfe leben meist in Familienverbänden, die Rudel genannt werden.
                Hauptbeute sind in den meisten Regionen mittelgroße bis große Huftiere.</p>
-               <img src="img/wolf.6.jpg" alt="Shnappschuss eines Wolfes" />
-       </figure>
-    </section>
-</body>
-    
+</div>
+        </figure>
+    </section>    
+      
+
 </html>
 
